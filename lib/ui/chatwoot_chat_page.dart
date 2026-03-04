@@ -408,6 +408,7 @@ class _ChatwootChatState extends State<ChatwootChat> {
               padding: EdgeInsets.only(
                   left: horizontalPadding, right: horizontalPadding),
               child: Chat(
+                
                 messages: _messages,
                 onMessageTap: _handleMessageTap,
                 onPreviewDataFetched: _handlePreviewDataFetched,
