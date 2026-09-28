@@ -127,6 +127,7 @@ class _WebviewState extends State<Webview> {
         : SizedBox();
   }
 
+  // ignore: unused_element
   _goToUrl(String url) {
     launchUrl(Uri.parse(url));
   }
