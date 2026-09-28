@@ -9,15 +9,15 @@ import PackageDescription
 let package = Package(
     name: "FlutterGeneratedPluginSwiftPackage",
     platforms: [
-        .iOS("13.0")
+        .iOS("15.0")
     ],
     products: [
         .library(name: "FlutterGeneratedPluginSwiftPackage", type: .static, targets: ["FlutterGeneratedPluginSwiftPackage"])
     ],
     dependencies: [
         .package(name: "flutter_secure_storage_darwin", path: "../.packages/flutter_secure_storage_darwin-0.4.3"),
-        .package(name: "image_picker_ios", path: "../.packages/image_picker_ios-0.8.13+6"),
-        .package(name: "url_launcher_ios", path: "../.packages/url_launcher_ios-6.4.1"),
+        .package(name: "image_picker_ios", path: "../.packages/image_picker_ios-0.8.13+8"),
+        .package(name: "url_launcher_ios", path: "../.packages/url_launcher_ios-6.4.2"),
         .package(name: "webview_flutter_wkwebview", path: "../.packages/webview_flutter_wkwebview-3.26.1"),
         .package(name: "FlutterFramework", path: "../.packages/FlutterFramework")
     ],
