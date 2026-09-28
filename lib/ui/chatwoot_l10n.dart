@@ -1,7 +1,5 @@
-import 'package:flutter_chat_ui/flutter_chat_ui.dart';
-
 /// Base chat l10n containing all required variables to provide localized chatwoot chat
-class ChatwootL10n extends ChatL10n {
+class ChatwootL10n {
   /// Accessibility label (hint) for the attachment button
   final String attachmentButtonAccessibilityLabel;
 
@@ -51,22 +49,10 @@ class ChatwootL10n extends ChatL10n {
       this.typingText = "typing...",
       this.inputPlaceholder = "Type your message",
       this.sendButtonAccessibilityLabel = "Send Message",
-      this.conversationResolvedMessage = "Your ticket has been marked as resolved",
+      this.conversationResolvedMessage =
+          "Your ticket has been marked as resolved",
       this.and = "and",
       this.isTyping = "is typing...",
       this.others = "others",
-      this.unreadMessagesLabel = "Your ticket has been marked as resolved"
-    })
-      : super(
-            attachmentButtonAccessibilityLabel:
-                attachmentButtonAccessibilityLabel,
-            emptyChatPlaceholder: emptyChatPlaceholder,
-            fileButtonAccessibilityLabel: fileButtonAccessibilityLabel,
-            inputPlaceholder: inputPlaceholder,
-            sendButtonAccessibilityLabel: sendButtonAccessibilityLabel,
-            and: and,
-            isTyping: isTyping,
-            others: others,
-            unreadMessagesLabel: unreadMessagesLabel
-      );
+      this.unreadMessagesLabel = "Your ticket has been marked as resolved"});
 }
